@@ -45,7 +45,7 @@ MongoClient.connect("mongodb://localhost:27017/crawler", (err, db) => {
 			})
 
 			//console.time("get request")
-			request.get(params.url, {timeout: 5000}, (error, response, body) => {
+			request.get(params.url, {timeout: 5000, gzip: true}, (error, response, body) => {
 				//console.timeEnd("get request")
 				if(!response || !response.headers || !response.headers["content-type"] || response.headers["content-type"].indexOf("text/html") === -1) {
 	    			if (error) {
