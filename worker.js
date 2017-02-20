@@ -44,6 +44,14 @@ MongoClient.connect("mongodb://localhost:27017/crawler", (err, db) => {
 				}
 			})
 
+			db.collection("dead-urls").findOne({url: params.url}, (err, document) => {
+				if (document != null) {
+					console.log("already known (dead)")
+					callback()
+					return
+				}
+			})
+
 			//console.time("get request")
 			request.get(params.url, {timeout: 5000, gzip: true}, (error, response, body) => {
 				//console.timeEnd("get request")

@@ -11,7 +11,7 @@
   "dependencies": {
     "cheerio": "^0.22.0",
     "mongodb": "^2.2.24",
-    "monq": "^0.3.6",
+    "monq": "https://github.com/HackerCow/monq",
     "domutils": "https://github.com/numeracy/domutils/tarball/926e6a8bbe35ee72c3fea05f6f84506854881b0d",
     "request": "^2.79.0"
   }
