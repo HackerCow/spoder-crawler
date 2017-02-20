@@ -1,0 +1,18 @@
+{
+  "name": "crawler",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^0.22.0",
+    "mongodb": "^2.2.24",
+    "monq": "^0.3.6",
+    "domutils": "https://github.com/numeracy/domutils/tarball/926e6a8bbe35ee72c3fea05f6f84506854881b0d",
+    "request": "^2.79.0"
+  }
+}
