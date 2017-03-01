@@ -1,0 +1,16 @@
+extends layout
+
+block content
+	h1 Crawler
+	p
+		span(id="numCompleted" class="bold") - 
+		span  Pages Scanned
+	p
+		span(id="numQueued" class="bold") - 
+		span  Pages Queued
+
+	p
+		span(id="rate" class="bold") - 
+		span  Pages per second
+
+	script(src="js/websockData.js")

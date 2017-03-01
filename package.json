@@ -9,10 +9,20 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "body-parser": "^1.16.1",
     "cheerio": "^0.22.0",
+    "circular-buffer": "^1.0.2",
+    "cluster": "^0.7.7",
+    "cookie-parser": "^1.4.3",
+    "domutils": "https://github.com/numeracy/domutils/tarball/926e6a8bbe35ee72c3fea05f6f84506854881b0d",
+    "express": "^4.14.1",
+    "jade": "^1.11.0",
     "mongodb": "^2.2.24",
     "monq": "https://github.com/HackerCow/monq",
-    "domutils": "https://github.com/numeracy/domutils/tarball/926e6a8bbe35ee72c3fea05f6f84506854881b0d",
-    "request": "^2.79.0"
+    "morgan": "^1.8.1",
+    "nodejs-websocket": "^1.7.1",
+    "request": "^2.79.0",
+    "winston": "^2.3.1",
+    "xxhash": "^0.2.4"
   }
 }

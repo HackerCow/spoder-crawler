@@ -1,0 +1,9 @@
+extends layout
+
+block content
+	h1 Search Results
+
+	each result in results
+		p
+			a(href=result.url)= result.title
+			p= result.description
